@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+	<head>
+		<!-- Title -->
+		<title>This is a prototype!</title>
+
+		<!-- Meta Tags -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Bootstrap CSS -->
+		<link href="stylesheets/animate.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/bootstrap.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/style.css" rel="stylesheet" media="screen">
+		
+
+		<!-- JavaScript Libraries -->
+		<script type="text/javascript" src="js/libs/angular.js"></script>
+		<script type="text/javascript" src="js/libs/angular-route.js"></script>
+		<script type="text/javascript" src="js/libs/angular-animate.js"></script>
+		<script type="text/javascript" src="js/libs/keymaster.min.js"></script>
+		<script type="text/javascript" src="js/libs/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/libs/bootstrap.js"></script>
+		<script type="text/javascript" src="js/libs/faker.js"></script>
+
+		<!-- App -->
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/controllers.js"></script>
+	</head>
+	<body>
+		<!-- Views will be rendered here -->
+		<div ng-view class="page-animate"></div>
+
+		<!-- Live Reload -->
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	</body>
+</html>
